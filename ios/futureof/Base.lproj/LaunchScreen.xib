@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="308" height="597"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="MlG-Rt-YlO">
+                    <rect key="frame" x="0.0" y="0.0" width="308" height="597"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJM-AZ-LSj">
+                    <rect key="frame" x="0.0" y="298.5" width="308" height="0.0"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="iil-4n-l22">
+                            <rect key="frame" x="46" y="-50" width="216" height="100.5"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="iil-4n-l22" firstAttribute="centerX" secondItem="VJM-AZ-LSj" secondAttribute="centerX" id="4Iw-Jy-iuX"/>
+                        <constraint firstItem="iil-4n-l22" firstAttribute="centerY" secondItem="VJM-AZ-LSj" secondAttribute="centerY" multiplier="1.05" id="CIT-uI-Fbw"/>
+                        <constraint firstItem="iil-4n-l22" firstAttribute="centerY" secondItem="VJM-AZ-LSj" secondAttribute="centerY" id="FlA-ki-kgr"/>
+                        <constraint firstItem="iil-4n-l22" firstAttribute="centerX" secondItem="VJM-AZ-LSj" secondAttribute="centerX" id="NQ9-st-GeC"/>
+                        <constraint firstItem="iil-4n-l22" firstAttribute="width" secondItem="VJM-AZ-LSj" secondAttribute="width" multiplier="0.7" id="PEI-NU-Sbe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MlG-Rt-YlO" secondAttribute="bottom" id="58u-kx-eSv"/>
+                <constraint firstItem="MlG-Rt-YlO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9sJ-ho-seB"/>
+                <constraint firstItem="VJM-AZ-LSj" firstAttribute="width" secondItem="MlG-Rt-YlO" secondAttribute="width" id="LGJ-lp-YLf"/>
+                <constraint firstItem="MlG-Rt-YlO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MxW-Fd-ZL7"/>
+                <constraint firstItem="VJM-AZ-LSj" firstAttribute="centerX" secondItem="MlG-Rt-YlO" secondAttribute="centerX" id="NUM-QF-SVw"/>
+                <constraint firstItem="MlG-Rt-YlO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="huf-jH-XYV"/>
+                <constraint firstItem="VJM-AZ-LSj" firstAttribute="centerY" secondItem="MlG-Rt-YlO" secondAttribute="centerY" id="jy6-tE-9hh"/>
+                <constraint firstItem="MlG-Rt-YlO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oHz-wH-J5N"/>
+                <constraint firstAttribute="trailing" secondItem="MlG-Rt-YlO" secondAttribute="trailing" id="oNn-rf-7rD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="357.06521739130437" y="500.72463768115944"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="465.5" height="919.5"/>
+        <image name="logo" width="317" height="100.5"/>
+    </resources>
+</document>

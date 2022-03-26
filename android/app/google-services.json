@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "139336761751",
+    "firebase_url": "https://futureof-e9d60.firebaseio.com",
+    "project_id": "futureof-e9d60",
+    "storage_bucket": "futureof-e9d60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139336761751:android:21f060c1bb5a4745e1c4d2",
+        "android_client_info": {
+          "package_name": "com.futureof.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139336761751-73akop6a1659seqljh8lggalb43qph2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkAaPwYsajezscq9P7ZAVlgKA4KDNe48I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139336761751-73akop6a1659seqljh8lggalb43qph2k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "139336761751-0e1bi74p7ssr50dvf038uqi5jeamnpdu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futureof.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

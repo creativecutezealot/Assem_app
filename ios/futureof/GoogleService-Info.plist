@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>139336761751-0e1bi74p7ssr50dvf038uqi5jeamnpdu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.139336761751-0e1bi74p7ssr50dvf038uqi5jeamnpdu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCR8ES6C_rTz6B-LKaJQemK2MIxCYEzXas</string>
+	<key>GCM_SENDER_ID</key>
+	<string>139336761751</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.futureof.ios</string>
+	<key>PROJECT_ID</key>
+	<string>futureof-e9d60</string>
+	<key>STORAGE_BUCKET</key>
+	<string>futureof-e9d60.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:139336761751:ios:d11c2f5398a3dacfe1c4d2</string>
+	<key>DATABASE_URL</key>
+	<string>https://futureof-e9d60.firebaseio.com</string>
+</dict>
+</plist>
